@@ -228,11 +228,11 @@ header {
 .section-service {
   flex: 1;
   text-align: center;
-  border-right: 1px solid #333;
+  /* border-right: 1px solid #333; */
   padding: 15px;
 }
 .section-service:first-child {
-  border-left: 1px solid #333;
+  /* border-left: 1px solid #333; */
 }
 .section-service img {
   width: 50%;
@@ -325,9 +325,9 @@ header {
 }
 .icon-social a {
   display: inline-flex;
-  width: 25px;
-  height: 25px;
-  background-color: #373737;
+  width: 45px;
+  height: 45px;
+  background-color: var(--color1);
   justify-content: center;
   align-items: center;
   border-radius: 13px;
@@ -335,7 +335,7 @@ header {
 }
 .icon-social a:hover,
 .icon-social a:first-child {
-  background-color: var(--color1);
+  margin-right: 20px;
 }
 .subscribe,
 .desc {
